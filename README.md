@@ -6,3 +6,7 @@
 - [Lecture 1 and Lecture 2 檔案](https://github.com/awinlab/CourseTemplateTry/tree/main/Lecture%201%262)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/awinlab/CourseTemplateTry/blob/main/Linear%20Regression%20template%20.ipynb)
+
+- [Lecture 3 Linear_Regression](https://github.com/awinlab/CourseTemplateTry/tree/main/Lecture%203)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Linear_Regression_template_(ok3)_.ipynb)
