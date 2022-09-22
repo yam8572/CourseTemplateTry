@@ -7,9 +7,9 @@
 
 [Lecture 3 Linear_Regression]()
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture%5f3Linear%5fRegression%5ftemplate%5f%28ok3%29%5f.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Linear_Regression_template_(ok3)_.ipynb)
 
-
+https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Linear_Regression_template_(ok3)_.ipynb
 **章節目標 : 線性回歸數學推導、台積電股價預測（自回歸）**
 
 ##工程素養
