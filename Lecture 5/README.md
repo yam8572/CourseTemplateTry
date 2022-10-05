@@ -34,7 +34,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 ## Machine Learning 分為監督式學習及非監督式學習，迴歸及分類為監督式學習
 #### 迴歸模型- 預測值為實數。模型評估指標: MSE(Min Square Error)、MAE(Min Absolute Error)、R2
 #### 分類模型- 預測值為離散值(正整數) 模型評估指標: confusion matrix(Accuracy、Recall、Precision、F1-score)
-## Machine Learning 模型評估
+## Machine Learning 模型評估(只使用accuracy指標)
 #### 只使用accuaracy指標評估分類模型並不客觀，因為他會受到input的分佈影響，如果input是均勻分布，則就可以只使用accuracy做為評估指標，ex.只透過辨識人穿的衣服顏色來分辨對方的黨派，比如綠色為民進黨
 ## Crisp-DM
 #### step1 蒐集data(csv、爬蟲、透過ETL工具將data放到DB、API)
