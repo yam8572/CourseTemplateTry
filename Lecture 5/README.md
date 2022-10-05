@@ -17,7 +17,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 ## 期中專題proposal(ppt 20頁，找網路模板):
 ### 系統架構圖dataflow製作工具: figma、draw.io etc
 
-proposal章節:
+**proposal章節:**
 
 0.Abstract
 
