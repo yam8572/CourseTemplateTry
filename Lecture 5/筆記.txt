@@ -1,0 +1,19 @@
+Machine Learning 分為監督式學習及非監督式學習，迴歸及分類為監督式學習
+迴歸模型 預測值為實數 模型評估指標: MSE(Min Square Error)、MAE(Min Absolute Error)、R2
+分類模型 預測值為離散值(正整數) 模型評估指標: confusion matrix(Accuracy、Recall、Precision、F1-score)
+只使用accuaracy指標評估分類模型並不客觀，因為他只分析input和output的分類類別吻合程度。
+ex.只透過辨識人穿的衣服顏色來分辨對方的黨派，比如綠色為民進黨
+
+Crisp-DM
+step1 蒐集data(csv、爬蟲、透過ETL工具放到DB、API)
+step2 Data clean
+step3 Train model
+step4 Evaluate model
+
+在training model前，須將trainning-data做隨機的training-data和validation-data分割
+使用scikit-learn的train-test-split()函數，指定參數shuffle=True搭配random_state設定一個整數值實現隨機training-data和validation-data分割
+以做交叉驗證
+
+model訓練完後就可以測試新資料，有兩種方式:
+1. Y' = model.predict(X-new) (Y'是對應的迴歸值)
+2. p = model.predict_prob(X-new) (p為迴歸值使用sigmoid對應的binary)
