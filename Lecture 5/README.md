@@ -48,6 +48,9 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 ##### 2. p = model.predict_prob(X-new) (p為迴歸值使用sigmoid對應的binary)
 ##### 附圖為兩種函數在二維平面的關係
 ![Linear Regression to Sigmoid](https://user-images.githubusercontent.com/113489075/193989318-c794442e-8e2f-4024-9f3b-edcba1d59c1f.png)
+## Machine Learning model evaluation(confusion matrix)
+![confusion matrix](https://user-images.githubusercontent.com/113489075/193990784-3975d55c-ad33-4094-a9c4-d48c95f26db9.png)
+
 
 ## 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
 
