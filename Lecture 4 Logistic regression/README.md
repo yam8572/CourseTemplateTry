@@ -1,4 +1,13 @@
 # Lecture 4
+## 快速連結
+以下連結需要瀏覽器登入 NCHU 學生帳號，才會正常運作。或是可在同個資料夾尋找同名檔案。
+- [線上 Google Meeting 連結](https://lms2020.nchu.edu.tw/media/doc/86493)
+
+點選下方 ```Open with Colab``` 即可直接開啟檔案至 Colab，留意 ```data.csv``` 不會被複製過去。
+
+[Lecture 4 Logistic_Regression]()
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%204%20Logistic%20regression/Multi-Linear%20regression%202021.10.2(Answer%20sample%20NotUseSelection)%20.ipynb)
 ## Review 上次內容
 * 線性回歸,我們介紹什麼是Excel操作並用幾個例子說明線性回歸的應用, 感測器較正
 * 在用Python 來實現=>google  Coble
