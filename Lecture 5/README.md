@@ -50,6 +50,11 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 ![Linear Regression to Sigmoid](https://user-images.githubusercontent.com/113489075/193989318-c794442e-8e2f-4024-9f3b-edcba1d59c1f.png)
 ## Machine Learning model evaluation(confusion matrix)
 ![confusion matrix](https://user-images.githubusercontent.com/113489075/193990784-3975d55c-ad33-4094-a9c4-d48c95f26db9.png)
+##### 訣竅: 
+##### TP代表真實值為真且預測值也為真
+##### TN就為TP的斜對角元素
+##### 因為設計confusion matrix的設計者的想法是將預測值當作假，所以F開頭
+##### 比對預測值欄位，如果遇預測值為真，則對應元素為FP，若預測值為假，則對應元素為FN
 
 
 ## 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
