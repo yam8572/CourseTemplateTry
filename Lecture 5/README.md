@@ -37,7 +37,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 ## Machine Learning 模型評估
 #### 只使用accuaracy指標評估分類模型並不客觀，因為他會受到input的分佈影響，如果input是均勻分布，則就可以只使用accuracy做為評估指標，ex.只透過辨識人穿的衣服顏色來分辨對方的黨派，比如綠色為民進黨
 ## Crisp-DM
-#### step1 蒐集data(csv、爬蟲、透過ETL工具放到DB、API)
+#### step1 蒐集data(csv、爬蟲、透過ETL工具將data放到DB、API)
 #### step2 Data clean
 #### step3 Train model
 #### step4 Evaluate model
@@ -46,6 +46,9 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 #### model訓練完後就可以測試新資料，有兩種方式:
 ##### 1. Y' = model.predict(X-new) (Y'是對應的迴歸值)
 ##### 2. p = model.predict_prob(X-new) (p為迴歸值使用sigmoid對應的binary)
+##### 附圖為兩種函數在二維平面的關係
+![Linear Regression to Sigmoid](https://user-images.githubusercontent.com/113489075/193989318-c794442e-8e2f-4024-9f3b-edcba1d59c1f.png)
+
 ## 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
 
 
