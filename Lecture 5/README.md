@@ -31,49 +31,24 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 
 5.Conclusion
 
-深度學習
-影像處理 Digital Image Processing (DIP) ↔ 訊號處理 Digital Signal Processing (DSP)
+## Machine Learning 分為監督式學習及非監督式學習，迴歸及分類為監督式學習
+### 迴歸模型- 預測值為實數。模型評估指標: MSE(Min Square Error)、MAE(Min Absolute Error)、R2
+### 分類模型- 預測值為離散值(正整數) 模型評估指標: confusion matrix(Accuracy、Recall、Precision、F1-score)
+## Machine Learning 模型評估
+### 只使用accuaracy指標評估分類模型並不客觀，因為他會受到input的分佈影響，如果input是均勻分布，則就可以只使用accuracy做為評估指標，ex.只透過辨識人穿的衣服顏色來分辨對方的黨派，比如綠色為民進黨
+## Crisp-DM
+### step1 蒐集data(csv、爬蟲、透過ETL工具放到DB、API)
+### step2 Data clean
+### step3 Train model
+### step4 Evaluate model
+## 在training model前，須將trainning-data做隨機的training-data和validation-data分割，使用scikit-learn的train-test-split()函數，指定參數shuffle=True搭配random_state設定一個整數值實現隨機training-data和validation-data分割以做交叉驗證
+## Machine Learning model test
+### model訓練完後就可以測試新資料，有兩種方式:
+#### 1. Y' = model.predict(X-new) (Y'是對應的迴歸值)
+#### 2. p = model.predict_prob(X-new) (p為迴歸值使用sigmoid對應的binary)
+## 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
 
-• Convolutional Neural Network(CNN)
-對圖像patten優化
 
-• Recurrent Neural Network(RNN)
-與時間序列相關 (ex:股票、自然語言探勘)
-
-• Generative Adversarial Network(GAN)
-資料很少時,應用於擴增資料[※用於訓練模擬,不可用於測試]
-
-• Variational Auto-Encoder(VAE)
-
-• U-Net
-可以做不規則形狀圖像辨識
-
-## 企業智慧
-企業若要導入人工智慧，需先有自動化。
-
-※落地應用：智慧場域應用
-1. 資料搜集data acquisition(→資料清洗[處理])[x,y]
-   - 感測器
-   - 爬蟲 
-2. 資料分析data analysis:因果模型建立[^f(x)]
-3. 預測需求predicting needs
-4. 觸發服務trigger services
-
-## L3
-ML(Machine Learning 機器學習)
-  - Supervised learning(監督式)(X,Y)
-  - Y∈R regression :連續(無限多類)
-    1. linear regression
-        - y=ax+b
-    2. multiple linear regression多元線性回歸
-        - y=ax₁+bx₂+.....+c
-    3. mplynomial多項式回歸
-        - y=a₁x³+a₂x²+....+b
-    4. auto-regression自回歸(用於時間序列分析)
-        - x(t)=a₁x(t-1)+a₂x(t-2)+....+aₙx(t-n)
-        - Y∈Z classification :分類
-		
-  - Unsupervised learning(非監督式)(Y)
 
 工具:Google Colab
 https://colab.research.google.com/
