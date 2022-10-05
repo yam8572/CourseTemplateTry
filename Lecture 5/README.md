@@ -56,6 +56,8 @@ https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d31
 ##### 因為設計confusion matrix的設計者的想法是將預測值當作假，所以F開頭
 ##### 比對預測值欄位，如果遇預測值為真，則對應元素為FP，若預測值為假，則對應元素為FN
 
+![confusion matrix probability](https://user-images.githubusercontent.com/113489075/194028164-c144ce67-5d5c-4f48-9dbb-cc398f8eaca2.png)
+
 
 ## 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
 
