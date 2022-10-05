@@ -14,7 +14,8 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 **章節目標 : 了解模型評估指標**
 
 
-## 期中專題proposal:
+## 期中專題proposal(ppt 20頁，找網路模板):
+### 系統架構dataflow製作工具: figma、draw.io etc
 
 0.Abstract
 
@@ -23,8 +24,6 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 2.Related Work(article summary table)
 
 3.Proposed Scheme/ Design
-* 解決用戶痛點
-* 創造企業價值
 
 4.Simulation / Implementation
 
