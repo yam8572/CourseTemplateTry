@@ -9,7 +9,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d3162a5c661c4/Lecture%205/Logistic%20regression%202022.10.3(grade%20with%20K-fold).ipynb)
 
-https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Linear_Regression_template_(ok3)_.ipynb
+https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d3162a5c661c4/Lecture%205/Logistic%20regression%202022.10.3(grade%20with%20K-fold).ipynb
 
 **章節目標 : 了解模型評估指標**
 
