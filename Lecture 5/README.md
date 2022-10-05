@@ -13,7 +13,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 
 **章節目標 : 了解模型評估指標**
 
-##工程素養
+## 工程素養
 
 ![img.png](img.png)
 
@@ -50,7 +50,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 • U-Net
 可以做不規則形狀圖像辨識
 
-##企業智慧
+## 企業智慧
 企業若要導入人工智慧，需先有自動化。
 
 ※落地應用：智慧場域應用
