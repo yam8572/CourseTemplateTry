@@ -14,6 +14,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Lin
 **章節目標 : 了解模型評估指標**
 
 ##工程素養
+
 ![img.png](img.png)
 
 期中專題proposal:
