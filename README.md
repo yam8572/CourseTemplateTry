@@ -16,6 +16,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/awinlab/CourseTemplateTry/blob/main/Lecture%203/Lecture_3_Linear_Regression_template_(ok3)_.ipynb)
 
+- [Lecture 4 Logistic_Regression](https://github.com/awinlab/CourseTemplateTry/tree/main/Lecture%204%20Logistic%20regression)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%204%20Logistic%20regression/Multi-Linear%20regression%202021.10.2(Answer%20sample%20NotUseSelection)%20.ipynb)
+
 - [Lecture 5 Performance Evaluation for Classification](https://github.com/awinlab/CourseTemplateTry/tree/main/Lecture%205)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d3162a5c661c4/Lecture%205/Logistic%20regression%202022.10.3(grade%20with%20K-fold).ipynb)
