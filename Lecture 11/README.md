@@ -34,24 +34,7 @@ https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%2011/(O)Lecture_1
 #### 4.3 Result in less but important weightings present
 #### 4.4 資料擴增
 #### 4.5 Early stopping to avoid overfitting
-4.5 Early stopping to avoid overfitting- (通常loss stop decrease 之後就會
-increase)
-##### 附圖為兩種函數在二維平面的關係
-![Linear Regression to Sigmoid](https://user-images.githubusercontent.com/113489075/193989318-c794442e-8e2f-4024-9f3b-edcba1d59c1f.png)
-## Machine Learning model evaluation(confusion matrix)
-![confusion matrix](https://user-images.githubusercontent.com/113489075/193990784-3975d55c-ad33-4094-a9c4-d48c95f26db9.png)
-##### 訣竅: 
-##### TP代表真實值為真且預測值也為真
-##### TN就為TP的斜對角元素
-##### 因為設計confusion matrix的設計者的想法是將預測值當作假，所以F開頭
-##### 比對預測值欄位，如果遇預測值為真，則對應元素為FP，若預測值為假，則對應元素為FN
-
-![confusion matrix probability](https://user-images.githubusercontent.com/113489075/194028164-c144ce67-5d5c-4f48-9dbb-cc398f8eaca2.png)
-
-
-#### 注意: data augmentation後的data只能拿來訓練模型，不能當作真實的testing data
-
-
+#### 4.6 Batch-Normalization (幫助多層次訓練的配合)
 
 工具:Google Colab
 https://colab.research.google.com/
