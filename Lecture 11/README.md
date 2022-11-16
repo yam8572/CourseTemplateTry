@@ -7,45 +7,35 @@
 
 [Lecture 11 CNN basics]()
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d3162a5c661c4/Lecture%205/Logistic%20regression%202022.10.3(grade%20with%20K-fold).ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%2011/(O)Lecture_11MNIST(DNNCNN_onGPU)v3(Allok).ipynb)
 
-https://github.com/awinlab/CourseTemplateTry/blob/c84b9d559b5d84a997442914571d3162a5c661c4/Lecture%205/Logistic%20regression%202022.10.3(grade%20with%20K-fold).ipynb
+https://github.com/awinlab/CourseTemplateTry/blob/main/Lecture%2011/(O)Lecture_11MNIST(DNNCNN_onGPU)v3(Allok).ipynb
 
-**章節目標 : 了解模型評估指標**
+**章節目標 : 了解CNN訓練流程及參數理解**
 
 
-## 期中專題proposal(ppt 20頁，找網路模板):
-### 系統架構圖dataflow製作工具: figma、draw.io etc
-
-**proposal章節:**
-
-0.Abstract
-
-1.Introduction(motivation…)
-
-2.Related Work(article summary table)
-
-3.Proposed Scheme/ Design
-
-4.Simulation / Implementation
-
-5.Conclusion
-
-## Machine Learning 分為監督式學習及非監督式學習，迴歸及分類為監督式學習
-#### 迴歸模型- 預測值為實數。模型評估指標: MSE(Min Square Error)、MAE(Min Absolute Error)、R2
-#### 分類模型- 預測值為離散值(正整數) 模型評估指標: confusion matrix(Accuracy、Recall、Precision、F1-score)
-## Machine Learning 模型評估(只使用accuracy指標)
-#### 只使用accuaracy指標評估分類模型並不客觀，因為他會受到input的分佈影響，如果input是均勻分布，則就可以只使用accuracy做為評估指標，ex.只透過辨識人穿的衣服顏色來分辨對方的黨派，比如綠色為民進黨
-## Crisp-DM
-#### step1 蒐集data(csv、爬蟲、透過ETL工具將data放到DB、API)
-#### step2 Data clean
-#### step3 Train model
-#### step4 Evaluate model
-## 在training model前，須將trainning-data做隨機的training-data和validation-data分割，使用scikit-learn的train-test-split()函數，指定參數shuffle=True搭配random_state設定一個整數值實現隨機training-data和validation-data分割以做交叉驗證
-## Machine Learning model test
-#### model訓練完後就可以測試新資料，有兩種方式:
-##### 1. Y' = model.predict(X-new) (Y'是對應的迴歸值)
-##### 2. p = model.predict_prob(X-new) (p為迴歸值使用sigmoid對應的binary)
+## Deep Learning 可用於一維及二維資料模型的訓練
+#### 一維資料模型- LSTM -> Attention -> Transformer、ECG/EEG、Speech、FinTech、電力分析
+#### 二維資料模型- Computer Vision、Video、PointCloud、Spatial domain/Channel
+## CNN Training(forward and backward)
+#### 1. Initialize random weights
+#### 2. Forward path -> propagate images through the entire network
+#### 3. Calculate loss
+#### 4. Backward propagation to tune weightings(gradient descent )
+#### 5. More images input and more iterations
+## CNN 的 Back Propagation
+#### 1. Gradients Decent
+#### 2. A Visual Explanation of Gradient Descent Methods (Momentum, AdaGrad,RMSProp, Adam)
+#### 3. Learning rate
+#### 4. comparison of deep learning tools Deep-learning software
+## 進階訓練技巧
+#### 4.1 Dropout
+#### 4.2 L1 and L2 regularization
+#### 4.3 Result in less but important weightings present
+#### 4.4 資料擴增
+#### 4.5 Early stopping to avoid overfitting
+4.5 Early stopping to avoid overfitting- (通常loss stop decrease 之後就會
+increase)
 ##### 附圖為兩種函數在二維平面的關係
 ![Linear Regression to Sigmoid](https://user-images.githubusercontent.com/113489075/193989318-c794442e-8e2f-4024-9f3b-edcba1d59c1f.png)
 ## Machine Learning model evaluation(confusion matrix)
