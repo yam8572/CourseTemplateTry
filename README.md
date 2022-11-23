@@ -2,6 +2,7 @@
 連結中的檔案網址為 NCHU iLearning，在下載檔案前請先在在同一瀏覽器登入後，即可下載。
 - L1 教學大綱與學習資源 
     - [[課程介紹PDF]](https://github.com/yam8572/IOT/blob/main/Lesson1%20Introduction/%E8%AA%B2%E7%A8%8B%E4%BB%8B%E7%B4%B9.pdf)
+    - [[123]](Lecture 1 Introduction/課程介紹.pdf)
     - [[AI 介紹]](https://github.com/yam8572/IOT/blob/main/Lesson1%20Introduction/AI_ML%E7%B8%BD%E8%AB%96.pdf)
     - [[note]](https://github.com/yam8572/IOT/blob/main/Lesson1%20Introduction/README.md)
     - [[video L1-1]](https://youtu.be/xIAEHZvYadE) 
